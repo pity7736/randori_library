@@ -1,5 +1,6 @@
 from library.persistence import PostgresPersistence
 
+
 class QueryBookController:
 
     def __init__(self):

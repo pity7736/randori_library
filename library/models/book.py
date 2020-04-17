@@ -9,7 +9,6 @@ from .editor import Editor
 
 @dataclass
 class Book:
-    id: int
     external_id: str
     title: str
     subtitle: str
@@ -19,3 +18,4 @@ class Book:
     editor: Editor
     description: str
     saved: bool
+    id: int = None
