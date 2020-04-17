@@ -10,7 +10,7 @@ Repository used by R5 tech team in a randory workshop.
 * Fork this repo
 * Clone your fork in your local machine
 * Run `git remote add upstream https://github.com/pity7736/randori_library.git` 
-* Verify that all is right `git remote -v`
+* Verify that everything is ok `git remote -v`
 
 ### Doing changes
 
