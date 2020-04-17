@@ -1,6 +1,10 @@
 version: 2
 jobs:
-  build_and_test:
+  build:
+    branches:
+      only:
+        - master
+
     docker:
       - image: circleci/python:3.7
 
@@ -17,9 +21,3 @@ jobs:
       - run:
           name: run tests
           command: sh run_tests.sh
-
-workflows:
-  version: 2
-  test:
-    jobs:
-      - build_and_test
