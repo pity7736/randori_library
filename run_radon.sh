@@ -1,1 +1,2 @@
-echo "hello world"
+#!/usr/bin/env bash
+radon cc -a -s -nb library
